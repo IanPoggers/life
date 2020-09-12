@@ -1,6 +1,0 @@
-name: Ian's game of life simulation
-author: me
-args:
-  - RULE:
-    help: Optionally sets the rule. The default rule is 23/3
-    required: true
