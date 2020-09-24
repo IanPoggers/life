@@ -230,9 +230,6 @@ fn main() {
        }
        */
 
-    let skip = framerate / 60;
-    let mut ctr = 0;
-
     buff.win
         .limit_update_rate(Some(time::Duration::from_secs(1).div_f32(60 as f32)));
     let mut paused = true;
@@ -277,10 +274,6 @@ fn main() {
                     mode(&mut buff);
                 }
 
-        ctr += 1;
-        ctr %= skip;
-        if ctr == 0 {
-            buff.update();
-        }
+        buff.update();
     }
 }
