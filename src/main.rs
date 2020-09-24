@@ -221,13 +221,6 @@ fn main() {
        buff.update();
        */
 
-
-    let anchor = 10000;
-
-    let mut pix = buff.move_index(anchor, 1, -1);
-    buff.pixels[pix] = ALIVE;
-    println!("{}", buff.elementary_parents(anchor));
-
     /*
        for x in 0..20 {
        for y in 0..buff.height as i32 {
