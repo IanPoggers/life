@@ -9,7 +9,7 @@ Most of the features of this program are accessible with command line arguments,
 
 ```
 USAGE:
-    life_windoze.exe [OPTIONS]
+    life [OPTIONS]
 
 FLAGS:
     -h, --help       Prints help information
