@@ -163,6 +163,7 @@ fn main() {
             -s --scaling=[SCALE]    'Sets the display scaling. Can be powers of 2 up to 32'")
         .name("Ian's game of life")
         .author("Author: me, duh")
+        .after_help("Space to pause/play, click to add cells, r to reset the screen, esc to quit.")
         .get_matches();
 
     let rule = match matches.value_of("rule") {
