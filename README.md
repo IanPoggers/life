@@ -16,13 +16,9 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -d, --dimensions <RES>    Sets the resolution. Defau
-lt is 350x200
-    -f, --framerate <FPS>     Sets the framerate. Defaul
-t is 60
-    -r, --rule <RULE>         Sets the rule to be used.
-Default is 23/3
-    -s, --scaling <SCALE>     Sets the display scaling.
-Can be powers of 2 up to 32
+    -d, --dimensions <RES>    Sets the resolution. Default is 350x200
+    -f, --framerate <FPS>     Sets the framerate. Default is 60
+    -r, --rule <RULE>         Sets the rule to be used. Default is 23/3
+    -s, --scaling <SCALE>     Sets the display scaling. Can be powers of 2 up to 32
 ```
 
