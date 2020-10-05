@@ -22,3 +22,6 @@ OPTIONS:
     -s, --scaling <SCALE>     Sets the display scaling. Can be powers of 2 up to 32
 ```
 
+# installation
+
+you can build it from source with `cargo build --release`, or you can just download a binary from the releases page.
